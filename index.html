@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Treasure Jump</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <br />
+    <br />
+     <audio src="welcome.m4a" autoplay>Browser Not Supported</audio>
+    <div class="game-screen">
+      <div class="game-header">
+        <H1 style="font-size: 80px">Treasure Jump</h1>
+        <div class="meters">
+          <p>Life - <span id="life">3</span></p>
+          <p>Path Repeater - <span id="path-repeater">3</span></p>
+          <p>Warning Friends - <span id="warning-friends">1</span></p>
+          <p>Power Ups - (Unavailable)</p>
+        </div>
+      </div>
+      <div class="game-board">
+        <div class="play-section">
+          <div class="islands">
+            <div class="island-row">
+              <div class="island row-1-1" id="row-1-1"></div>
+              <div class="island row-1-2" id="row-1-2"></div>
+              <div class="island row-1-3" id="row-1-3"></div>
+              <div class="island row-1-4" id="row-1-4"></div>
+            </div>
+            <div class="island-row">
+              <div class="island row-2-1" id="row-2-1"></div>
+              <div class="island row-2-2" id="row-2-2"></div>
+              <div class="island row-2-3" id="row-2-3"></div>
+              <div class="island row-2-4" id="row-2-4"></div>
+            </div>
+            <div class="island-row">
+              <div class="island row-3-1" id="row-3-1"></div>
+              <div class="island row-3-2" id="row-3-2"></div>
+              <div class="island row-3-3" id="row-3-3"></div>
+              <div class="island row-3-4" id="row-3-4">"</div>
+            </div>
+            <div class="island-row">
+              <div class="island row-4-1" id="row-4-1"></div>
+              <div class="island row-4-2" id="row-4-2"></div>
+              <div class="island row-4-3" id="row-4-3"></div>
+              <div class="island row-4-4" id="row-4-4"></div>
+            </div>
+          </div>
+          <div class="image"></div>
+        </div>
+
+        <div class="others">
+          <div id="play-message"></div>
+          <div class="button-line">
+            <div class="show-button" id="show-button">Show Path</div>
+            <div class="reset-button" id="reset-button">Reset</div>
+          </div>
+          <div class="start-button" id="start-button">Start</div>
+        </div>
+      </div>
+    </div>
+    <div class="play"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
